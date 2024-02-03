@@ -36,7 +36,7 @@
 
 ✅ Названия сборников, в которых присутствует конкретный исполнитель (выберите его сами)
 
-### [[Select requests 6-10 sql code]](https://github.com/Nikolay08041979/advanced_data_selection/blob/master/Task%233.sql)
+### [Select requests 6-10 sql code](https://github.com/Nikolay08041979/advanced_data_selection/blob/master/Task%233.sql)
 
 
 
