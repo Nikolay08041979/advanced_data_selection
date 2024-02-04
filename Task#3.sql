@@ -28,14 +28,14 @@ ORDER BY singer_name;
 
 
 --10) Названия сборников, в которых присутствует конкретный исполнитель (выберите его сами)
-select collection_name, singer_name from collection c3
+select DISTINCT collection_name, singer_name from collection c3
 join collectiontrack c2 on c2.collection_id  = c3.id 
 join track t on t.id = c2.track_id  
 join album a on a.id = t.album_id 
 join singeralbum s on s.album_id = a.id 
 join singer s1 on s1.id = s.singer_id
 where lower(collection_name) like 'bluz'
-group by collection_name, singer_name;
+order by collection_name, singer_name;
 
 
 
